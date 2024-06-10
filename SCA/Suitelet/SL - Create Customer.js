@@ -18,7 +18,7 @@
 
 // ===============================================================================================
 // Owner :Nutchapol Eng
-// Description : Script to manage Create Customer in SCA
+// Description : Script to manage Create Customer in SCA 
 // ================================================================================================
 // 29/05/2024 10:00 Nutchapol :Create Script
 
@@ -113,8 +113,6 @@ function OnRequest(context, request, response) {
 	request = context.request;
 	response = context.response;
 	var params = request.parameters;
-	// log.debug(step + ' -- userObj', JSON.stringify(userObj));
-	// log.debug(step + ' -- userSubsi -- userRoleID', userSubsi + "|" + userRoleID);
 	var step = params.stepfield || null;
 	// log.debug("ss_template",JSON.stringify(ss_template))
 	// ============================================
